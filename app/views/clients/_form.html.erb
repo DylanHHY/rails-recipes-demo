@@ -1,0 +1,17 @@
+<%= form_for @client do |form|%>
+  <div>
+    <%= form.label :name, "客戶姓名"%>
+    <%= form.text_field :name%>
+  </div>
+  <div>
+    <%= form.label :email, "email"%>
+    <%= form.text_field :email%>
+  </div>
+  <div>
+    <%= form.label :phone, "phone"%>
+    <%= form.text_field :phone%>
+  </div>
+
+  <%= form.submit%>
+
+<% end %>

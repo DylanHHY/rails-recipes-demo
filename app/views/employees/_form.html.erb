@@ -1,0 +1,13 @@
+<%= form_for @employee do |form|%>
+  <div>
+    <%= form.label :name, "員工姓名"%>
+    <%= form.text_field :name%>
+  </div>
+  <div>
+    <%= form.label :email, "email"%>
+    <%= form.text_field :email%>
+  </div>
+
+  <%= form.submit%>
+
+<% end %>
